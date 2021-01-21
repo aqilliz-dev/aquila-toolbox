@@ -1,0 +1,19 @@
+{
+  "name": "aquila-benchmarking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "benchmark": "node ./src/index.js"
+  },
+  "author": "Ignacio Palacios",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@polkadot/api": "^1.27.1",
+    "@polkadot/keyring": "^3.0.1",
+    "@polkadot/util": "^4.1.1",
+    "@polkadot/util-crypto": "^3.0.1",
+    "plotly": "^1.0.6"
+  }
+}
