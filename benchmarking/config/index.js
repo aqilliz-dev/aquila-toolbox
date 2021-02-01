@@ -1,6 +1,6 @@
 const config = {
   provider: {
-    node: 'ws://3.0.167.111:8044',
+    node: 'wss://benchmark-substrate.api.godscilla.com/rpc',
     api: {
       types: {
         "Address": "AccountId",
@@ -110,7 +110,7 @@ const config = {
       msPerBlock: 6000,
       numOfTests: 2
     },
-    senderSecretSeed: '0xe259560d9446bb98f0582d0ae7ef01ab2b57b30ab3f2f16b59e3fee65d72be8b',
+    senderSecretSeed: '0xd7eef99eced379c61aab4027dff4c108369e65823bd1820645c93ad28493c9c8',
     data: {
       recipientAccount: '5GzNhAJtv143wbdh3N6q6EmjWHgg9KWiZY6AJBwRAiBatGFQ',
       amount: '100000000000'
