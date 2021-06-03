@@ -1,4 +1,4 @@
 # Toolbox for Aquila Blockchain
 
 ## Benchmarking
-`./benchmarking`
+`./benchmarking` Scripts for testing the TPS a Substrate node can handle
